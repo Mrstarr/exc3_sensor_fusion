@@ -39,6 +39,6 @@ Egress is considered complete when the driver stands next to the car both feet o
 #### Is it okay to adjust the angle of the winglets after technical inspection?
 Yes
 #### How many lateral g's are simulated during the tilt test?
-\frac{3}{2}
+$\frac{\sqrt(3)}{2}g$
 #### How should the DV log data during the race?
 #### What level of wireless communication with the vehicle (exclusing Remote Emergency System) is allowed during the race?
