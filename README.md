@@ -17,8 +17,6 @@ in second one : <br>
 You can check if they are close. Also, one improvement can be done by changing the both orientation vector into quaternion
 for it's the original data output.However, there is some uncertainty there so I tend to leave it as a question. 
 
-
-# Report
 ## About coding
 The coding itself is 100 % self-written. I take the website https://kthfs-dv.gitbook.io/slam/sensor-fusion mainly as my reference and apply simple Kalman filter to do the estimation. The total amount of time I spent is close to 6(Saturday)+ 2(Sunday)=8 hours excluding time to reading the stuff.<br>
 The five steps of the filter are represented by five functions. I also write three function to transform /gnss,/imu,/odom data to seperately, measurement and state vector. More details could be seen inside my code. Besides, I also added some thinking during the coding which might be true or wrong.<br>
@@ -33,3 +31,14 @@ Another way could use the idea of particle filter. We build several models with 
 #### 3.How can we tune the behaviour of such filters?
 Not quite sure about the meaning of 'behaviour'. Generally, pick the most fit filters, build good models from the dynamics and environment, avoid overdrifting by good planning work. My idea of this question is based on the Kalman filter in the task, which doesn't really have some parameters to adjust. Maybe we can discuss it later in the interview.
 
+## Quiz
+#### Which category is the most important in the Business Plan Presentation?
+In terms of score, **Content**.
+#### The driver must be able to leave the car quickly in an emergency. What does the regulations state about driver egress time?
+Egress is considered complete when the driver stands next to the car both feet on the ground.
+#### Is it okay to adjust the angle of the winglets after technical inspection?
+Yes
+#### How many lateral g's are simulated during the tilt test?
+\frac{3}{2}
+#### How should the DV log data during the race?
+#### What level of wireless communication with the vehicle (exclusing Remote Emergency System) is allowed during the race?
