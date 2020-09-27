@@ -11,8 +11,8 @@ in second one : <br>
 ~ python main.py
 ```
 ## Output
-the estimation of state (Position vector(x,y,z),Orientation vector(x,y,z))<br>
-the measurement of state from gnss (Position vector(x,y,z),Orientation vector(x,y,z))<br>
-You can check if they are close<br>
-An improvement should change the both orientation vector into quaternion,<br>
-But I am a little bit not sure about this and questions remains<br>
+- the estimation of state (Position vector(x,y,z),Orientation vector(x,y,z))<br>
+- the measurement of state from gnss (Position vector(x,y,z),Orientation vector(x,y,z))<br>
+- You can check if they are close<br>
+- An improvement should change the both orientation vector into quaternion,<br>
+- But I am a little bit not sure about this and questions remains<br>
