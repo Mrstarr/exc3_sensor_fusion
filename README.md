@@ -32,13 +32,15 @@ Another way could use the idea of particle filter. We build several models with 
 Not quite sure about the meaning of 'behaviour'. Generally, pick the most fit filters, build good models from the dynamics and environment, avoid overdrifting by good planning work. My idea of this question is based on the Kalman filter in the task, which doesn't really have some parameters to adjust. Maybe we can discuss it later in the interview.
 
 ## Quiz
-#### Which category is the most important in the Business Plan Presentation?
+#### 1.Which category is the most important in the Business Plan Presentation?
 In terms of score, **Content**.
-#### The driver must be able to leave the car quickly in an emergency. What does the regulations state about driver egress time?
+#### 2.The driver must be able to leave the car quickly in an emergency. What does the regulations state about driver egress time?
 Egress is considered complete when the driver stands next to the car both feet on the ground.
-#### Is it okay to adjust the angle of the winglets after technical inspection?
+#### 3.Is it okay to adjust the angle of the winglets after technical inspection?
 Yes
-#### How many lateral g's are simulated during the tilt test?
+#### 4.How many lateral g's are simulated during the tilt test?
 sqrt(3)/2 g
-#### How should the DV log data during the race?
-#### What level of wireless communication with the vehicle (exclusing Remote Emergency System) is allowed during the race?
+#### 5.How should the DV log data during the race?
+Teams must implement the standardised data logger software provided by the officials in their hardware.
+#### 6.What level of wireless communication with the vehicle (exclusing Remote Emergency System) is allowed during the race?
+Only one-way-telemetry for information retrieval is allowed.
