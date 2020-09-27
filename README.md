@@ -13,6 +13,9 @@ in second one : <br>
 ## Output
 - the estimation of state (Position vector(x,y,z),Orientation vector(x,y,z))<br>
 - the measurement of state from gnss (Position vector(x,y,z),Orientation vector(x,y,z))<br>
-- You can check if they are close<br>
-- An improvement should change the both orientation vector into quaternion,<br>
-- But I am a little bit not sure about this and questions remains<br>
+<br>
+You can check if they are close. Also, one improvement can be done by changing the both orientation vector into quaternion
+for it's the original data output.However, there is some uncertainty there so I tend to leave it as a question. 
+
+
+#Report
