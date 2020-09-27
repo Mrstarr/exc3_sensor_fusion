@@ -29,7 +29,11 @@ The equation to calculate mean and covariance is linear in Kalman Filter. While 
 One way is to do update or estimation several times, if the information from sensors is not overlapped. By overlap, I mean the data is complementary and does not conflict with each other, which is the case in our task. 
 Another way could use the idea of particle filter. We build several models with different measurement and estimation method, and give them each a value of importance factor.<br>
 #### 3.How can we tune the behaviour of such filters?
-Not quite sure about the meaning of 'behaviour'. Generally, pick the most fit filters, build good models from the dynamics and environment, avoid overdrifting by good planning work. My idea of this question is based on the Kalman filter in the task, which doesn't really have some parameters to adjust. Maybe we can discuss it later in the interview.
+Generally, pick the most fit filters, build good models from the dynamics and environment, avoid overdrifting by good planning work. My idea of this question is based on the Kalman filter in the task, which doesn't really have some parameters to adjust. Maybe we can discuss it later in the interview.
+#### 4.What can happen if 1 measurement is delayed ?
+Then the time stamp of estimation and measurement does not accord. If running offline, we can align the time stamp. If running online, then everything estimation will be compared with previous measurement, if we do not wait for the matched measurement, which is bad. 
+#### 5.Now your IMU gets damaged. Does your implementation deal with it? How could you handle it?
+It seems that if IMU gets damaged, there is no possibility to locate the vehicle in a precise manner. At first, I do not incorporate IMU and I find that theta never changes.
 
 ## Quiz
 #### 1.Which category is the most important in the Business Plan Presentation?
